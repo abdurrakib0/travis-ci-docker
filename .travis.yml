@@ -7,7 +7,7 @@ script:
   - docker images abdurrakib0/node
 
 before_deploy:
-  - docker login -u abdurrakib0 -p Rakib2008
+  - docker login -u abdurrakib0 -p RakibDhaka
 
 deploy:
   provider: script
